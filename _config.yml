@@ -95,3 +95,4 @@ exclude:
 collections:
   posts:
     permalink: '/posts/:title/'
+domain: 'https://panoramic-hickory-e21bf.netlify.app'
