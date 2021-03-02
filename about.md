@@ -1,73 +1,91 @@
 ---
 title: Who We Are
 sections:
-  - type: hero_section
-    template: hero_section
-    title: Who We Are
-    align: center
-  - type: content_section
-    template: content_section
-    content: >-
-      Nisi porta lorem mollis aliquam ut porttitor. Pellentesque dignissim enim
-      sit amet venenatis urna cursus eget nunc. Dui nunc mattis enim ut tellus.
-      Eu sem integer vitae justo eget magna fermentum. Habitant morbi tristique
-      senectus et netus et malesuada fames. Ipsum dolor sit amet consectetur
-      adipiscing elit pellentesque habitant.
+- type: hero_section
+  template: hero_section
+  title: Who We Are
+  align: center
+  subtitle: ''
+  actions: []
+  image: ''
+  image_alt: ''
+  image_position: ''
+  has_background: false
+  background:
+    background_color: ''
+    background_image: ''
+    background_image_opacity: 
+    background_image_size: ''
+    background_image_repeat: ''
+- type: content_section
+  template: content_section
+  content: |-
+    Nisi porta lorem mollis aliquam ut porttitor. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui nunc mattis enim ut tellus. Eu sem integer vitae justo eget magna fermentum. Habitant morbi tristique senectus et netus et malesuada fames. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant.
 
-
-      Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Ac
-      felis donec et odio pellentesque. Sem nulla pharetra diam sit amet.
-      Egestas tellus rutrum tellus pellentesque eu. Auctor augue mauris augue
-      neque. Lectus arcu bibendum at varius vel pharetra. Enim sed faucibus
-      turpis in eu mi bibendum neque egestas.
-  - type: team_section
-    template: team_section
-    title: Our Team
-    team:
-      - _data/team/miles-tone.yaml
-      - _data/team/dianne-ameter.yaml
-      - _data/team/eleanor-carr.yaml
-      - _data/team/hanson-deck.yaml
-      - _data/team/gordon-norman.yaml
-  - type: cta_section
-    template: cta_section
-    title: Join the Team
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    actions:
-      - type: action
-        template: action
-        label: Contact Us
-        url: /contact
-        style: secondary
-    has_background: true
-    background_color: blue
+    Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Ac felis donec et odio pellentesque. Sem nulla pharetra diam sit amet. Egestas tellus rutrum tellus pellentesque eu. Auctor augue mauris augue neque. Lectus arcu bibendum at varius vel pharetra. Enim sed faucibus turpis in eu mi bibendum neque egestas.
+  title: ''
+- type: team_section
+  template: team_section
+  title: Our Team
+  team:
+  - _data/team/gordon-norman.yaml
+  - _data/team/miles-tone.yaml
+  - _data/team/dianne-ameter.yaml
+  - _data/team/eleanor-carr.yaml
+  - _data/team/hanson-deck.yaml
+- type: cta_section
+  template: cta_section
+  title: Join the Team
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  actions:
+  - type: action
+    template: action
+    label: Contact Us
+    url: "/contact"
+    style: secondary
+    new_window: false
+    no_follow: false
+  has_background: true
+  background_color: blue
 seo:
   type: stackbit_page_meta
   template: stackbit_page_meta
   title: Who We Are
   description: This is the about us page
   extra:
-    - name: 'og:type'
-      value: website
-      keyName: property
-    - name: 'og:title'
-      value: Who We Are
-      keyName: property
-    - name: 'og:description'
-      value: This is the about us page
-      keyName: property
-    - name: 'og:image'
-      value: images/1.png
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Who We Are
-    - name: 'twitter:description'
-      value: This is the about us page
-    - name: 'twitter:image'
-      value: images/1.png
-      relativeUrl: true
+  - name: og:type
+    value: website
+    keyName: property
+    relativeUrl: false
+  - name: og:title
+    value: Who We Are
+    keyName: property
+    relativeUrl: false
+  - name: og:description
+    value: This is the about us page
+    keyName: property
+    relativeUrl: false
+  - name: og:image
+    value: images/1.png
+    keyName: property
+    relativeUrl: true
+  - name: twitter:card
+    value: summary_large_image
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:title
+    value: Who We Are
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:description
+    value: This is the about us page
+    keyName: ''
+    relativeUrl: false
+  - name: twitter:image
+    value: images/1.png
+    relativeUrl: true
+    keyName: ''
+  robots: []
 layout: advanced
+
 ---
